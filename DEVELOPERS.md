@@ -13,7 +13,7 @@ This lab is responsible for:
 
 ## Web Lab
 
-Owners: @kotleni, @y9san9
+> Owners: @kotleni, @y9san9
 
 Technologies: TypeScript, React.js, Next.js, Tailwind CSS. Experimental architecture.
 
@@ -43,7 +43,7 @@ This lab is responsible for:
 
 ## CLI Lab
 
-Owner: @Atennop1
+> Owner: @Atennop1
 
 Technologies: Go and BubbleTea TUI framework. Modular Elm architecture.
 
