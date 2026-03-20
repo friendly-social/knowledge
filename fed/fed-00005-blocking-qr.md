@@ -8,7 +8,7 @@ There's a problem that we need to acknowledge. It's a cold start problem. Even i
 
 In order if you want to get benefit from the app, you must be _very active_. And your friends must be. This is the picture that illustrates the problem:
 
-![](fed-00005-blocking-qr-problem.png)
+![](assets/fed-00005-blocking-qr-problem.png)
 
 Even before you will be _able to test_ you need to invite someone and then they need to invite someone else. And that's to just see a single profile. Of course it will not scale that way. People will not try that hard to just test it.
 
