@@ -25,7 +25,6 @@ User Profile consists of these fields:
     - **Required.** Clients don't need to check and should always allocate some space for nickname
 - **Description**
     - **Length:** 1...2024
-    - **Optional.** Clients need to have a dynamic layout that can show profiles without description
 - **Social Link**
     - Should be rendered as a 'Message' icon which is opened when you click on it
     - Link should be validated with the following Regex: `((http|https):\/\/)?\w+\.\w+.*`

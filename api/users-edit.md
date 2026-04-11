@@ -38,7 +38,6 @@ to implement in majority of languages.
     - Length: `1...256`
 - `description`
     - Length: `1...1024`
-    - Nullable
 - `socialLink`
     - Length: `1...2048`
     - Nullable
