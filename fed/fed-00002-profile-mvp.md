@@ -13,8 +13,6 @@ We don't ask user to provide email/phone number. To sign up, you only need to pr
 
 This decision is a deliberate choice that was made because we don't have anything public, so spam makes little sense. People can easily ban spammers without our help.
 
-You can link email later when you edit profile, that is going to be described in the later FEDs.
-
 ## Fields
 
 User Profile consists of these fields:

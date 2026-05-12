@@ -35,4 +35,3 @@ Sign-in flow is the same as attach flow:
 - You send an API request to log in
 
 After that, a new token is generated and returned to you.
-

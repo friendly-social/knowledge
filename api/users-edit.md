@@ -12,16 +12,16 @@
 ```typescript
 {
    "nickname": {
-       "value": string
+       "value": String
    },
    "description": {
-       "value": string
+       "value": String
    },
    "interests": {
-       "value": string[]
+       "value": String[]
    },
    "socialLink": {
-       "value": string?
+       "value": String?
    },
    "avatar": {
        "value": FileDescriptor?

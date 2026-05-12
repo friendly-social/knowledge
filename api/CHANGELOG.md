@@ -1,11 +1,16 @@
 # Changelog
 
-Current version: `2025.4.1`
+Current version: `2026.1.1`
 
 See [news](../news/README.md#Naming) for the first two numbers. Third number
 is a patch version.
 
-## 2025.4.1: Switching Releases Schema
+## 2026.1.2: Added email in user details
+
+If any endpoint returns your own model and you have set your email, then it will
+contain it as a part of response.
+
+## 2026.1.1: Switching Releases Schema
 
 No changes on backend side.
 
