@@ -1,9 +1,13 @@
 # Changelog
 
-Current version: `2026.1.1`
+Current version: `2026.1.3`
 
 See [news](../news/README.md#Naming) for the first two numbers. Third number
 is a patch version.
+
+## 2026.1.3: Persist friend token
+
+Now when `/friends/generate` is called, it will return previously saved friend token if it was not yet used. To force token regeneration a new `/friends/generate/force` endpoint was introduced with the same parameters.
 
 ## 2026.1.2: Added email in user details
 
