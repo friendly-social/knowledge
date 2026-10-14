@@ -1,7 +1,7 @@
 # /users/details/{id?}/{accessHash?}
 
 - URL: `https://api.getfriend.ly/users/details`
-- Method: `PATCH`
+- Method: `GET`
 - Headers:
     - `Content-Type: application/json`
     - `X-User-Id: $userId`
