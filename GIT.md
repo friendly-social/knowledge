@@ -27,12 +27,12 @@ What any git hosting needs is:
 But Friendly itself is a place to talk about Friendly! So here is the matrix of
 technologies we use to develop Friendly:
 
-| Domain          | Solution                                               |
-| --------------- | ------------------------------------------------------ |
-| Git             | Plain SSH via git user                                 |
-| Code Browsing   | CGit at [git.getfriend.ly](https://git.getfriend.ly)   |
-| Code Submitting | Patchbin at [pr.getfriend.ly](https://pr.getfriend.ly) |
-| Social          | A circle within Friendly itself!                       |
+| Domain          | Solution                                                           |
+| --------------- | ------------------------------------------------------------------ |
+| Git             | Plain SSH via git user                                             |
+| Code Browsing   | CGit at [git.getfriend.ly](https://git.getfriend.ly)               |
+| Code Submitting | Pastebin at [snips.sh](https://snips.sh) (can be selfhosted later) |
+| Social          | A circle within Friendly itself!                                   |
 
 ## Cloning
 
@@ -49,11 +49,12 @@ If you are an outside collaborator, we have a patchbin instance hosted at
 [pr.getfriend.ly](https://pr.getfriend.ly). To create a patch link, use:
 
 ```sh
-git format-patch main --stdout | ssh pr.getfriend.ly {repo}
+git format-patch main --stdout | ssh snips.sh
 ```
 
 You need to have SSH key set up to do that. It will be used to check permissions
-to update/delete patchset.
+to update/delete patchset. Then you send a link to contributors via Friendly or
+mail.
 
 ## Pushing
 
