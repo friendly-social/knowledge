@@ -46,7 +46,7 @@ git clone https://git.getfriend.ly/{repo}
 ## Sending patches
 
 If you are an outside collaborator, we have a patchbin instance hosted at
-[pr.getfriend.ly](https://pr.getfriend.ly). To create a patch link, use:
+[snips.sh](https://snips.sh). To create a patch link, use:
 
 ```sh
 git format-patch main --stdout | ssh snips.sh
