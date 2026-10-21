@@ -11,6 +11,7 @@ Issues are not used, any decisions are stored in a separate `fed` directory as p
 - [Project Idea](IDEA.md)
 - [Phases until 2027](PHASES.md)
 - [Quarter News](news/README.md)
+- [Git Workflow](GIT.md)
 - [Friendly Evolution Decisions](fed/README.md)
 - [Development Process](LABS.md)
 - [Active Laboratories](DEVELOPERS.md)
