@@ -49,7 +49,7 @@ If you are an outside collaborator, we have a patchbin instance hosted at
 [snips.sh](https://snips.sh). To create a patch link, use:
 
 ```sh
-git format-patch main --stdout | ssh snips.sh
+git format-patch origin/main --stdout | ssh snips.sh
 ```
 
 You need to have SSH key set up to do that. It will be used to check permissions
